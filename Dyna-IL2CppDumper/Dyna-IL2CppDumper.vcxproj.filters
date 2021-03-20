@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{328b2ce4-abb2-4ef5-bc56-96b17c1fe823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{782a2a66-909a-4b75-a12b-1a3c7aef67f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="il2cpp_dump.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="define.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp_dump.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp-tabledefs.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cppapi\2019.3.0f6\il2cpp-api-functions.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cppapi\2019.3.0f6\il2cpp-class.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
